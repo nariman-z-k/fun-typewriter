@@ -1,0 +1,34 @@
+
+
+.blow{
+    animation: anime 0.2s;
+    color:rgb(96, 83, 151);
+    font-size:24px;
+    line-height: 10px;
+   
+}
+
+
+@keyframes anime
+{
+    0%
+    {
+        font-size:24px;
+        color: rgb(96, 83, 151);
+    }
+    45%{
+        color: rgba(64, 10, 163);
+    }
+
+    50%
+    {
+        font-size:35px;
+        color: rgb(96, 83, 151);
+    }
+    
+    
+    100%{
+        font-size: 24px;
+        color:  rgb(96, 83, 151);
+    }
+}
